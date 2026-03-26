@@ -1,0 +1,61 @@
+.footer {
+  display: flex;
+  align-items: center;
+  gap:5rem;
+  padding: 1rem 2rem;
+  justify-content: space-around;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-icons img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.footer ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+
+.footer ul li {
+    list-style: none;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.footer ul li:hover{
+    color: rgb(241, 87, 16);
+}
+
+.copyright-info {
+    font-size: 1rem;
+}
+
+.store-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.store-icons p {
+font-size: 1rem;
+margin-bottom: 0.7rem;
+}
+
+.store-icons img {
+    width: 100px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+    }
+}

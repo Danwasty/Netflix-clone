@@ -1,0 +1,66 @@
+.title-cards {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title-cards h2 {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.card-list {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.card-list::-webkit-scrollbar {
+    display: none;
+}
+.card-list img {
+    width: 240px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.card {
+    position: relative;
+}
+
+.card p {
+    position: absolute;
+    top: 85%;
+    padding-left: 6%;
+    font-weight: bold;
+}
+
+.more-cards {
+    padding-left: 6%;
+}
+
+.card-list a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .title-cards {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .card-list img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 800px) {
+    .title-cards {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    .card-list img {
+        width: 165px;
+    }
+}
