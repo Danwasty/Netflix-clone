@@ -42,16 +42,12 @@ const Footer = () => {
         <p>Get Our App</p>
         <ul>
           <a
-            href="https://play.google.com/store/apps/details?id=com.netflix.mediaclient"
-            target="_blank"
-            rel="noopener noreferrer"
+            
           >
             <img src={play_store} alt="Get it on Google Play" />
           </a>
           <a
-            href="https://apps.apple.com/us/app/netflix/id363590051"
-            target="_blank"
-            rel="noopener noreferrer"
+            
           >
             <img src={app_store} alt="Download on the App Store" />
           </a>
