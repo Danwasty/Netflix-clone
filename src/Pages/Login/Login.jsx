@@ -73,7 +73,7 @@ const Login = () => {
         <div className="form-switch">
           {status === "Sign In" ? (
             <p>
-              New to Netflix? <span onClick={changeStatus}>Sign Up</span>
+              New to Uflix? <span onClick={changeStatus}>Sign Up</span>
             </p>
           ) : (
             <p>
